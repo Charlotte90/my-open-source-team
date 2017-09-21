@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="78.296621">
+<testcase classname="Search requirement for customer" name="Searching PHP travel for flight booking" time="78.296621">
+<system-out><![CDATA[Given : I am on the home page of hotels.....................................passed
+When : I enter a destination details........................................passed
+Then : I list of prices of hotels...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

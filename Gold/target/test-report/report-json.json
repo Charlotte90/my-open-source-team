@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10901186686,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenariosHooks.testSetUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Searching PHP travel for flight booking",
+        "description": "",
+        "id": "search-requirement-for-customer;searching-php-travel-for-flight-booking",
+        "after": [
+          {
+            "result": {
+              "duration": 872248052,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenariosHooks.testCleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6174445915,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": I am on the home page of hotels",
+            "match": {
+              "location": "SearchSteps.iAmOnTheHomePageOfHotels()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60303194260,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": I enter a destination details",
+            "match": {
+              "location": "SearchSteps.iEnterADestinationDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45546489,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": I list of prices of hotels",
+            "match": {
+              "location": "SearchSteps.iListOfPricesOfHotels()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Search requirement for customer",
+    "description": "As a customer\r\nI want to search for flight\r\nSo I can book a flight",
+    "id": "search-requirement-for-customer",
+    "keyword": "Feature",
+    "uri": "sprint_01/PH201701Search.feature"
+  }
+]

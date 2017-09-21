@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.asos.portal.RunnerCukesTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 19.238 sec <<< FAILURE!
+When I search for item such as black belt(Scenario: I search for black belt item)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Must provide a location for a move action.
+	at org.openqa.selenium.interactions.MoveMouseAction.<init>(MoveMouseAction.java:34)
+	at org.openqa.selenium.interactions.Actions.moveToElement(Actions.java:257)
+	at com.asos.portal.pages.HomePage.mouseHoverMen(HomePage.java:75)
+	at com.asos.portal.steps.SearchItemSteps.i_search_for_item_such_as_black_belt(SearchItemSteps.java:32)
+	at ?.When I search for item such as black belt(asos.app.features/AE45004SearchItem.feature:10)
+
+Scenario: I search for black belt item  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Must provide a location for a move action.
+	at org.openqa.selenium.interactions.MoveMouseAction.<init>(MoveMouseAction.java:34)
+	at org.openqa.selenium.interactions.Actions.moveToElement(Actions.java:257)
+	at com.asos.portal.pages.HomePage.mouseHoverMen(HomePage.java:75)
+	at com.asos.portal.steps.SearchItemSteps.i_search_for_item_such_as_black_belt(SearchItemSteps.java:32)
+	at ?.When I search for item such as black belt(asos.app.features/AE45004SearchItem.feature:10)
+

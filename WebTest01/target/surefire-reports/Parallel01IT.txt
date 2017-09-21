@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Parallel01IT
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 4, Skipped: 12, Time elapsed: 1.345 sec <<< FAILURE! - in Parallel01IT
+| 234dotus@gmail.com | password123 | Donald Jonathan |  Time elapsed: 0.117 sec  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Projects\java-16b-practice-repo\WebTest01\drivers-package\windows\phantomjs\phantomjs-2.1.1-windows\bin\phantomjs.exe
+
+| 234dotus@gmail.com | xxxxxxxxx | Invalid login or password |  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Projects\java-16b-practice-repo\WebTest01\drivers-package\windows\phantomjs\phantomjs-2.1.1-windows\bin\phantomjs.exe
+
+| xxxxxxxx@gmail.com | password123 | Invalid login or password |  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Projects\java-16b-practice-repo\WebTest01\drivers-package\windows\phantomjs\phantomjs-2.1.1-windows\bin\phantomjs.exe
+
+| xxxxxxxx@gmail.com | xxxxxxxxx | Invalid login or password |  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Projects\java-16b-practice-repo\WebTest01\drivers-package\windows\phantomjs\phantomjs-2.1.1-windows\bin\phantomjs.exe
+

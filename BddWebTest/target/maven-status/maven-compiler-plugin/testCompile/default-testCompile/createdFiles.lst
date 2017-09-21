@@ -1,0 +1,6 @@
+com\asos\portal\steps\LoginSteps.class
+com\asos\portal\steps\LogoutSteps.class
+com\asos\portal\steps\SearchItemSteps.class
+com\asos\portal\asoshooks\ScenarioHooks.class
+com\asos\portal\RunnerCukesTest.class
+com\asos\portal\steps\SearchAddToBag.class

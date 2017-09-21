@@ -1,0 +1,16 @@
+com\asos\portal\Infrastructure\BrowserConfig\LocalDriverPath.class
+com\asos\portal\support\WorldHelper.class
+com\asos\portal\pages\AccountPage.class
+com\asos\portal\utilities\CustomWait.class
+com\asos\portal\pages\MenPage.class
+com\asos\portal\pages\HomePage.class
+com\asos\portal\Infrastructure\BrowserConfig\BrowserFactory.class
+com\asos\portal\pages\ProductDisplayPage.class
+com\asos\portal\pages\BasePage.class
+com\asos\portal\Infrastructure\BrowserConfig\LocalCustomCapabilities.class
+com\asos\portal\Infrastructure\screenreader\ScreenShots.class
+com\asos\portal\pages\NewLookPage.class
+com\asos\portal\Infrastructure\filereader\ConfigReader.class
+com\asos\portal\pages\WelcomePage.class
+com\asos\portal\pages\WomenPage.class
+com\asos\portal\Infrastructure\BrowserConfig\RemoteCustomCapabilities.class

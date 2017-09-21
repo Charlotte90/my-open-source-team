@@ -1,0 +1,13 @@
+package xmasCard;
+
+public class XmasFamily {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Happy Xmas");
+
+	}
+
+}
