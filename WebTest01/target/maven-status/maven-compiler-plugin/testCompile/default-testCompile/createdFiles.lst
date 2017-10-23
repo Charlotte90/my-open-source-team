@@ -1,9 +1,0 @@
-com\magento\hooks\TaggedHooks.class
-Parallel02IT.class
-Parallel01IT.class
-com\magento\hooks\GlobalHooks.class
-com\magento\hooks\ScenarioHooks.class
-com\magento\RunnerCukesTest.class
-com\magento\steps\CustomerLoginSteps.class
-com\magento\steps\CustStoreSearchSteps.class
-com\magento\hooks\GlobalHooks$1.class
